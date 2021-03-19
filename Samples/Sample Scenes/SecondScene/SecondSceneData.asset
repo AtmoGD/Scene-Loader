@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb8e2dc4ce5559468d85bc3d0ec750d, type: 3}
+  m_Name: SecondSceneData
+  m_EditorClassIdentifier: 
+  sceneName: SecondScene
+  loadingScreen: {fileID: 856889703211440095, guid: a3600dd4c2526cd4b8b93baf3f22dbe8,
+    type: 3}
+  sceneAnimationStart: {fileID: 5598180787997905065, guid: 35ba708464cd4974481513748a27b6b3,
+    type: 3}
+  sceneStartTime: 0.9
+  sceneAnimationEnd: {fileID: 2829929537659979664, guid: cd589a4286b096345b5596f4ec7e119b,
+    type: 3}
+  sceneEndTime: 0.9

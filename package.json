@@ -1,0 +1,42 @@
+{
+  "name": "com.bearbones.sceneloading",
+  "version": "0.1.0",
+  "displayName": "Scene loading",
+  "description": "A simple SceneLoader with scene transitions",
+  "unity": "2019.4",
+  "unityRelease": "0b5",
+  "keywords": [
+    "scene loader",
+    "scene transitions",
+    "loading screen"
+  ],
+  "author": {
+    "name": "bearbones",
+    "email": "info@bearbones.de",
+    "url": "https://www.bearbones.de"
+  },
+  "type": "tool",
+  "samples": [
+ 
+    {
+ 
+      "displayName": "Sample Animations",
+ 
+      "description": "Some simple animation samples",
+ 
+      "path": "Samples~/Sample Animations"
+ 
+    },
+ 
+    {
+ 
+      "displayName": "Sample Scenes",
+ 
+      "description": "Sample scenes",
+ 
+      "path": "Samples~/Sample Scenes"
+ 
+    }
+ 
+  ]
+}
