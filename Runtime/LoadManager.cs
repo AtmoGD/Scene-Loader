@@ -3,9 +3,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace SceneLoading
+namespace SceneLoader
 {
-    public class SceneLoader : MonoBehaviour
+    public class LoadManager : MonoBehaviour
     {
         #region Actions
         public Action OnLoadStart;
@@ -14,14 +14,14 @@ namespace SceneLoading
         #endregion
 
         #region Singleton
-        private static SceneLoader _instance { get; set; }
-        public static SceneLoader Instance
+        private static LoadManager _instance { get; set; }
+        public static LoadManager Instance
         {
             get
             {
                 if (!_instance)
                 {
-                    _instance = new GameObject("SceneLoader").AddComponent<SceneLoader>();
+                    _instance = new GameObject("SceneLoader").AddComponent<LoadManager>();
                 }
                 return _instance;
             }

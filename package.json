@@ -24,7 +24,7 @@
  
       "description": "Some simple animation samples",
  
-      "path": "Samples~/Sample Animations"
+      "path": "Samples/Sample Animations"
  
     },
  
@@ -34,7 +34,7 @@
  
       "description": "Sample scenes",
  
-      "path": "Samples~/Sample Scenes"
+      "path": "Samples/Sample Scenes"
  
     }
  

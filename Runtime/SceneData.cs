@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.SceneManagement;
 
-namespace SceneLoading
+namespace SceneLoader
 {
     [CreateAssetMenu(fileName = "New scene data", menuName = "SceneData")]
     public class SceneData : ScriptableObject
